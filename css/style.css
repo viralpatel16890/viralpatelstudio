@@ -1,0 +1,109 @@
+body{
+   font-family: 'DM Sans', sans-serif;
+    /* font-family: 'Raleway', sans-serif; */
+}
+.navbar{padding: 0;}
+.container{padding: 0 20px; max-width: 1280px;}
+header a.nav-link{padding: 0 15px;}
+header a.nav-link, header a{color: #666;}
+section.home h1, section.innerPage h1{  
+  flex-grow: 0;
+  font-size: 40px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #333;
+  margin-bottom: 0;
+}
+section.home h3{
+  flex-grow: 0;
+  font-size: 25px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #333;
+  margin-bottom: 10px;
+}
+section.home h5{    
+  flex-grow: 0;
+  font-size: 20px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #333;
+  margin-bottom: 20px;
+}
+section.home p{
+    line-height: 18px;
+    font-size: 16px    
+}
+.navbar-expand-lg .navbar-nav .nav-link {padding: 0 20px;}
+
+.navbar-expand-lg .navbar-nav .nav-link.active, .navbar-expand-lg .navbar-nav .nav-link:hover{color: #b3b2b2;}
+.btn-primary {
+  padding: 0 25px;
+  line-height: 40px;
+  border-radius: 6px;
+  background-color: #0f3662;
+  width: 155px;
+  height: 40px;
+  border: 0;
+}
+.social-connect i {font-size: 35px; color: #000; }
+footer {
+  padding: 20px 0;
+  background-color: #d8d8d8;
+}
+footer p {margin:0; color: #6d6d6d; font-size: 14px;}
+footer p:first-child{ color: #6d6d6d; font-size: 18px; margin-bottom: 10px;} 
+.navbar-toggler:focus{outline: 0; box-shadow: none;}
+
+section.innerPage h1.innerHeader{font-size: 23px; }
+.card{
+  transition: all 0.3s ease;
+}
+section.innerPage .card-title  {  
+  font-size: 18px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #333;
+}
+section.innerPage a{text-decoration: none; position: relative;margin-bottom: 50px; display: block;}
+section.innerPage a::after {
+  content: '';
+  background-color:#f1f1f1;
+  width: 90%;
+  height: 2px;
+  position: absolute;
+  bottom: -25px;
+  transition: all 0.3s ease;
+}
+section.innerPage a:hover::after {
+  content: ''; 
+  width: 100px;
+  background-color: #1e0e62;
+  transition: all 0.3s ease;
+} 
+section.innerPage a:hover .card-title{color: #1e0e62;}
+section.innerPage .card-subtitle{font-size: 15px;}
+section.innerPage .card-text{
+    color: #6c757d!important;
+}
+.text-primary{
+  color: #1e0e62 !important;
+}
+.innerPage{min-height: 454px;}
+
